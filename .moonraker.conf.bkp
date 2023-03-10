@@ -28,6 +28,9 @@ trusted_clients =
 [power tplink_HS110]
 type = tplink_smartplug
 address = 192.168.3.122
+off_when_shutdown = True
+locked_while_printing = True
+timer = 15
 
 [announcements]
 subscriptions = 
